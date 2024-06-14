@@ -5,6 +5,7 @@
 * MySQL
 * Postman
 
+
 ## How to
 1. Clone this repository into your local
 2. Run `npm install` to install dependencies
@@ -52,6 +53,7 @@ MYSQL_CONFIG_PORT=3306
   {
     "id": "TEST123"
   }
+
 
 ## Unit Testing
 To running unit test, command on the terminal `npm run test`
