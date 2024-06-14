@@ -1,6 +1,6 @@
-CRUD Backend Solution
+# CRUD Backend Solution
 
-# Requirements
+## Requirements
 * NodeJS
 * MySQL
 * Postman
@@ -20,12 +20,12 @@ MYSQL_CONFIG_PORT=3306
 6. You can try to hit these API in your local via Postman. For sample `localhost:3000/api/siloam/v1/list-patient`. Here are some list API and sample request payload
 - [GET] /api/siloam/v1/list-patient (To get all list data)
 - [POST] /api/siloam/v1/selected-patient (To get specific data base on `id`)
-  Sample payload:
+  * Sample payload:
   {
     "id": "TEST123"
   }
 - [POST] /api/siloam/v1/add-patient (To insert data)
-  Sample payload:
+  * Sample payload:
   {
     "firstName": "Tester",
     "lastName": "Testing",
@@ -36,7 +36,7 @@ MYSQL_CONFIG_PORT=3306
     "address": "Jakarta"
   }
 - [PUT] /api/siloam/v1/update-patient (To update data base on `id`)
-  Sample payload:
+  * Sample payload:
   {
     "id": "TEST123",
     "firstName": "Tester",
@@ -48,7 +48,7 @@ MYSQL_CONFIG_PORT=3306
     "address": "Jakarta"
   }
 - [DELETE /api/siloam/v1/delete-patient (To delete data base on `id`)
-  Sample payload:
+  * Sample payload:
   {
     "id": "TEST123"
   }
